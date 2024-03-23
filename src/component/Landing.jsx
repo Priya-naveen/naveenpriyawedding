@@ -2,6 +2,7 @@ import React from 'react'
 import nslogo from '../assets/NSlogo.png'
 import corFlower from '../assets/cornerFlower.png'
 import corFlower2 from '../assets/cornerFlower2.png'
+import { Link } from "react-router-dom";
 function Landing() {
   return (
     
@@ -11,7 +12,7 @@ function Landing() {
         <div className='logo'>
           <img src={nslogo}/>
         </div>
-        <button className='bg-[#a78b5f] px-4 py-3 rounded-md text-white mt-6'>CLICK TO JOIN WITH US</button>
+        <Link to="/wedding"><button className='bg-[#a78b5f] px-4 py-3 rounded-md text-white mt-6'>CLICK TO JOIN WITH US</button></Link> 
         <img src={corFlower2} className='absolute bottom-0 right-0'/>
     </div>
   )
