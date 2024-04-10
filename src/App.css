@@ -18,13 +18,19 @@
 }
 
 body {
-    /* display: flex;
-    justify-content: center; */
+ 
     font-family: "Exo", sans-serif;
 
 }
-
+.wrapper{
+    display: flex;
+    justify-content: center;
+}
+.bgTexture{
+    background-image: url("https://www.transparenttextures.com/patterns/absurdity.png");
+}
 .container {
+
     background-color: #ffffff;
     background-image: url("https://www.transparenttextures.com/patterns/absurdity.png");
     width: 500px;

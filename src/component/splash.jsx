@@ -6,7 +6,8 @@ import nameCircle  from  '../assets/nameCircle.png'
 import { Link } from "react-router-dom";
 function Splash() {
   return (
-    
+    <div className='wrapper'>
+
     <div class="container">
     <div class="header">
         <img src={topFlower} />
@@ -21,6 +22,7 @@ function Splash() {
     <div class="footer">
         <img src={bottomFlower} />
     </div>
+</div>
 </div>
   )
 }
