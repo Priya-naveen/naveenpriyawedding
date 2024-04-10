@@ -28,7 +28,7 @@ function Mainpage() {
 
     },[])
   return (
-    <div className='cardArea  w-full md:w-2/3 lg:w-2/3  bg-[#faebd7] min-h-screen rounded relative'>
+    <div className='  w-full  bg-[#faebd7] min-h-screen rounded relative'>
         
        <div id="blinkArea" className='flex  flex-col justify-center items-center h-screen'>
         <p className='messages text-[#a52a2a] text-1xl'>Dear Family and Friends,</p>
