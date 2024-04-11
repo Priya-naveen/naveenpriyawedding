@@ -5,7 +5,7 @@ import ReactPlayer from 'react-player'
 function Mainpage() {
   useEffect(() => {
     const textElements = document.querySelectorAll('.messages');
-    console.log(textElements)
+    
     let currentIndex = 0;
 
     function showNextText() {
@@ -51,11 +51,11 @@ function Mainpage() {
     <div className='container lg:w-2/3 bg-white bgTexture min-h-screen rounded relative'>
 
       <div id="blinkArea" className='flex  flex-col justify-center items-center h-screen'>
-      <ReactPlayer className="audio" width={0} height={0} url={adio} playing={true} volume={0.1} stopOnUnmount={false}/>
-        <p className='messages text-[#8162a2] text-1xl'>Dear Family and Friends,</p>
-        <p className='messages text-[#8162a2] text-1xl'>We Invited</p>
-        <p className='messages text-[#8162a2] text-1xl'>You To Our</p>
-        <p className='messages text-[#8162a2] text-1xl'>Wedding Ceremony</p>
+      <ReactPlayer className="audio" width={0} height={0} url={adio} playing={true} volume={0.2} stopOnUnmount={false}/>
+        <p className='messages text-[#8162a2] text-1xl font-medium'>Dear Family and Friends,</p>
+        <p className='messages text-[#8162a2] text-1xl font-medium'>We Invited</p>
+        <p className='messages text-[#8162a2] text-1xl font-medium'>You To Our</p>
+        <p className='messages text-[#8162a2] text-1xl font-medium'>Wedding Ceremony</p>
       </div>
       <div id="contentArea">
         <p className='text-center mb-3 text-[#8162a2] font-medium'>A decade of love, laughter, and cherished memories - our hearts are overflowing with gratitude as we invite you to celebrate the joyous occasion of our marriage.</p>
