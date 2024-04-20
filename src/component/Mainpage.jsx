@@ -82,7 +82,7 @@ function Mainpage() {
           <a className='text-right text-white block mt-2 text-xs ' href="http://www.google.com/calendar/event?action=TEMPLATE&text=Naveen+Priya+Wedding+Event&dates=20240608/20240608&details=NAVEEN%20PRIYA%20RECEPTION%0AYadava%20Krishna%20Mahal%0A279%2C%20Big%20Car%20St%2C%20Thiruparankundram%2C%20Tamil%20Nadu%20625005location=Yadava%20Krishna%20Mahal%0A279%2C%20Big%20Car%20St%2C%20Thiruparankundram%2C%20Tamil%20Nadu%20625005"> Add to calendar </a></div>
           <div className='bg-[#8162a2] p-2 rounded bgCardTexture mt-3'>
           <p className='text-white text-center text-sm'>&#10084; MARRIAGE &#10084;</p>
-          <p className='text-center text-white mt-2 text-sm'>08-Jun-2024 @ 6:00 PM Onwards</p>
+          <p className='text-center text-white mt-2 text-sm'>09-Jun-2024 @ 10:00 AM Onwards</p>
           <a className='text-right text-white block mt-2 text-xs ' href="http://www.google.com/calendar/event?action=TEMPLATE&text=Naveen+Priya+Wedding+Event&dates=20240609/20240609&details=NAVEEN%20PRIYA%20MARRIAGE%0AYadava%20Krishna%20Mahal%0A279%2C%20Big%20Car%20St%2C%20Thiruparankundram%2C%20Tamil%20Nadu%20625005location=Yadava%20Krishna%20Mahal%0A279%2C%20Big%20Car%20St%2C%20Thiruparankundram%2C%20Tamil%20Nadu%20625005"> Add to calendar </a></div>
         </div>
         <div className='p-2  mt-3 text-center'>
